@@ -8,6 +8,7 @@ def rps() -> None:
     repeat = True
     system('clear || cls')
     while repeat :
+        print(RpsLogo)
         questions = [
     inq.List('choice',
                     message="Choose ",

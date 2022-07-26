@@ -25,6 +25,7 @@ python main.py
 * Hangaman
 * Higher - Lower
 * Rock - Paper - Scissors
+* Quiz Game
 
 ## To-Do 
 * Snake

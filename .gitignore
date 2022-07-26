@@ -44,3 +44,4 @@ Quiz Game/__pycache__/question_model.cpython-38.pyc
 Quiz Game/__pycache__/question_model.cpython-310.pyc
 Quiz Game/__pycache__/quiz_brain.cpython-38.pyc
 Quiz Game/__pycache__/quiz_brain.cpython-310.pyc
+Games/Hangman/words.py
