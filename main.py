@@ -5,7 +5,7 @@ import Games.Hangman.Main as Hangman
 on = True
 while on :
 	
-	RPS.system("clear")
+	RPS.system("clear || cls")
 	questions = [
 	RPS.inq.List('Games',
 					message="Games ",

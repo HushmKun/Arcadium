@@ -12,7 +12,14 @@ A command line arcade games written in python to pass time.
 
 
 ## Installation
-No installtion required **at the moment** , could be added at later date.
+To install **Arcadium** use these commands : 
+```
+pip install inquirer
+git clone https://github.com/HushmKun/Arcadium/
+cd Arcadium 
+python main.py
+```
+
 
 ## Games
 * Hangaman

@@ -3,7 +3,7 @@ from random import randint
 from os import system
 
 def clear()-> None:
-    system("clear")
+    system("clear || cls")
 
 
 def game() -> None:

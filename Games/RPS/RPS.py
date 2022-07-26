@@ -4,9 +4,9 @@ from random import randint
 import inquirer as inq
 
 
-def rps():
+def rps() -> None:
     repeat = True
-    system('clear')
+    system('clear || cls')
     while repeat :
         questions = [
     inq.List('choice',
@@ -47,7 +47,7 @@ def rps():
         if x == 'n' : 
             repeat = False
         else : 
-            system('clear') 
+            system('clear || cls ') 
 
 if __name__ == '__main__':
     rps()
