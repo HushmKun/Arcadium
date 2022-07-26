@@ -5,9 +5,9 @@ A command line arcade games written in python to pass time.
 
 ## Table of contents
 
-* [Installation]()
-* [Games]()
-* [To-Do]()
+* [Installation](https://github.com/HushmKun/Arcadium#installation)
+* [Games](https://github.com/HushmKun/Arcadium#games)
+* [To-Do](https://github.com/HushmKun/Arcadium#to-do)
 
 
 
