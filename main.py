@@ -1,5 +1,7 @@
 import Games.RPS.RPS as RPS
 import Games.HighLow.HiLo as HiLo
+import Games.Hangman.Main as Hangman
+
 on = True
 while on :
 	
@@ -7,7 +9,7 @@ while on :
 	questions = [
 	RPS.inq.List('Games',
 					message="Games ",
-					choices=['Rock-Paper-Scissor','High-Low','Exit'],
+					choices=['Rock-Paper-Scissor','High-Low','Hangman','Exit'],
 				),
 	]
 
@@ -18,6 +20,8 @@ while on :
 			RPS.rps()
 		case 'High-Low':
 			HiLo.game()
+		case 'Hangman':
+			Hangman.game()
 		case "Exit":
 			on = False 
 

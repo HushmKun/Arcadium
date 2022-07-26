@@ -2,15 +2,15 @@ from .data import *
 from random import randint
 from os import system
 
-def clear():
+def clear()-> None:
     system("clear")
 
 
-def game():
-    rand = randint(0,len(data)-1)
+def game() -> None:
     clear()
     print(logo)
-    print("\t Instagram Followers Edition ")
+    print("\t\t Instagram Followers Edition \n")
+    rand = randint(0,len(data)-1)
     print(f"Compare A: {data[rand]['name']}, a {data[rand]['description']}, from {data[rand]['country']}. ")
     f1 = data[rand]['follower_count']
     print(vs)
@@ -31,12 +31,10 @@ def game():
         if choice =='A' :
             if f1>f2:
                 score += 1
-                rand = rand
-                f1 = f1
+                # rand = rand
+                # f1 = f1
             else : 
-                print("You Lose.")
-                print(f"Your score = {score} , Press Any Key to exit.")
-                input()
+                print(f"You Lose.\nYour score = {score} , Press Enter to exit.")
                 break
 
         else :
@@ -45,14 +43,14 @@ def game():
                 f1 = f2
                 rand = rand2
             else : 
-                print("You Lose.")
-                print(f"Your score = {score} , Press Any Key to exit.")
+                print(f"You Lose.\nYour score = {score} , Press Enter to exit.")
                 break
         clear()
         print(logo)
         print(f"Correct! Your score = {score}")
         print(f"Compare A: {data[rand]['name']}, a {data[rand]['description']}, from {data[rand]['country']}.")
         print(vs)
+    input()
 
     
 if __name__ == '__main__':

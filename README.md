@@ -1,4 +1,4 @@
-# Arcade
+# Arcadium
 
 A command line arcade games written in python to pass time.
 
