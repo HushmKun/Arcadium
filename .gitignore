@@ -1,47 +1,7 @@
-Flashy/main.py
-Flashy/data/french_words.csv
-Flashy/images/card_back.png
-Flashy/images/card_front.png
-Flashy/images/right.png
-Flashy/images/wrong.png
-Turtle - US states/50_states.csv
-Turtle - US states/main.py
-Turtle - US states/states.gif
-Turtle - Snake Game/food.py
-Turtle - Snake Game/main.py
-Turtle - Snake Game/score.py
-Turtle - Snake Game/snake.py
-Turtle - Snake Game/__pycache__/food.cpython-38.pyc
-Turtle - Snake Game/__pycache__/food.cpython-310.pyc
-Turtle - Snake Game/__pycache__/score.cpython-38.pyc
-Turtle - Snake Game/__pycache__/score.cpython-310.pyc
-Turtle - Snake Game/__pycache__/snake.cpython-38.pyc
-Turtle - Snake Game/__pycache__/snake.cpython-310.pyc
-Turtle - Race/main.py
-Turtle - Pong/ball.py
-Turtle - Pong/Main.py
-Turtle - Pong/Paddles.py
-Turtle - Pong/workspace.code-workspace
-Turtle - Pong/__pycache__/ball.cpython-38.pyc
-Turtle - Pong/__pycache__/Paddles.cpython-38.pyc
-Turtle - Crossing Roads/car_manager.py
-Turtle - Crossing Roads/main.py
-Turtle - Crossing Roads/player.py
-Turtle - Crossing Roads/scoreboard.py
-Turtle - Crossing Roads/__pycache__/car_manager.cpython-38.pyc
-Turtle - Crossing Roads/__pycache__/car_manager.cpython-310.pyc
-Turtle - Crossing Roads/__pycache__/player.cpython-38.pyc
-Turtle - Crossing Roads/__pycache__/player.cpython-310.pyc
-Turtle - Crossing Roads/__pycache__/scoreboard.cpython-38.pyc
-Turtle - Crossing Roads/__pycache__/scoreboard.cpython-310.pyc
-Quiz Game/data.py
-Quiz Game/main.py
-Quiz Game/question_model.py
-Quiz Game/quiz_brain.py
-Quiz Game/__pycache__/data.cpython-38.pyc
-Quiz Game/__pycache__/data.cpython-310.pyc
-Quiz Game/__pycache__/question_model.cpython-38.pyc
-Quiz Game/__pycache__/question_model.cpython-310.pyc
-Quiz Game/__pycache__/quiz_brain.cpython-38.pyc
-Quiz Game/__pycache__/quiz_brain.cpython-310.pyc
-Games/Hangman/words.py
+Flashy/*
+Turtle - US states/*
+Turtle - Race/*
+Turtle - Pong/*
+Turtle - Crossing Roads/*
+Games/*/__pycache__/*
+.gitignore

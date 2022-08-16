@@ -26,10 +26,14 @@ python main.py
 * Higher - Lower
 * Rock - Paper - Scissors
 * Quiz Game
+* Snake
 
 ## To-Do 
-* Snake
-* Pong 
-* Crossing Roads
+
+* ### Add the following games :
+    * Pong 
+    * Crossing Roads
+
+* ### Create release package for Windows / Mac / Linux
 
 

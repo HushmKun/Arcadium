@@ -1,12 +1,11 @@
-import Games.RPS.RPS as RPS
-import Games.HighLow.HiLo as HiLo
-import Games.Hangman.Main as Hangman
-import Games.QuizGame.main as Quiz
+from os import system
+from inquirer import prompt , List as Listy
+
 
 on = True
 while on :
 	
-	RPS.system("clear || cls")
+	system("clear || cls")
 	print("""
 
 \t █████╗ ██████╗  ██████╗ █████╗ ██████╗ ██╗██╗   ██╗███╗   ███╗
@@ -18,23 +17,25 @@ while on :
                                                                
 """)
 	questions = [
-	RPS.inq.List('Games',
+	Listy('Games',
 					message="Games ",
-					choices=['Rock-Paper-Scissor','High-Low','Hangman','Quiz Game','Exit'],
+					choices=['Snake','Rock-Paper-Scissor','High-Low','Hangman','Quiz Game','Exit'],
 				),
 	]
 
-	answers = RPS.inq.prompt(questions)
+	answers = prompt(questions)
 
 	match answers['Games'] :
+		case 'Snake':
+			import Games.Snake.main
 		case 'Rock-Paper-Scissor':
-			RPS.rps()
+			import Games.RPS.RPS 
 		case 'High-Low':
-			HiLo.game()
+			import Games.HighLow.HiLo 
 		case 'Hangman':
-			Hangman.game()
+			import Games.Hangman.Main 
 		case 'Quiz Game':
-			Quiz.game()
+			import Games.QuizGame.main 
 		case "Exit":
 			on = False 
 
