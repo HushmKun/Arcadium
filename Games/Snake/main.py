@@ -73,8 +73,10 @@ while True:
     elif button_direction == 0:
         snake_head[1] -= 1
     elif button_direction == 2:
+        time.sleep(0.03)
         snake_head[0] += 1
     elif button_direction == 3:
+        time.sleep(0.03)
         snake_head[0] -= 1
 
     # Increase Snake length on eating apple
