@@ -36,4 +36,6 @@ python main.py
 
 * ### Create release package for Windows / Mac / Linux
 
+### If anyone has experience in curses for windows please contact me.  
+
 
